@@ -1,0 +1,21 @@
+{
+  "name": "l314-s1_vollet-jacques-henri",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Massongy/314-semaine-1#readme",
+  "bugs": {
+    "url": "https://github.com/Massongy/314-semaine-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Massongy/314-semaine-1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js" 
+  }
+}

@@ -1,0 +1,8 @@
+.DS_Store
+
+
+# Ignorer les variables d'environnement
+.env
+# Ignorer les dépendances Node.js
+node_modules/ 
+
