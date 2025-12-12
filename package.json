@@ -15,6 +15,6 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node app.js" 
+    "start": "nodemon server.js" 
   }
 }
