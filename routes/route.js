@@ -4,8 +4,11 @@ const controller = require('../controllers/controller')
 
 
 // define the home page route
-router.get('/', controller.helloWorld)
 router.get('/users', controller.getUsers)
+router.get('/users/:id', controller.getUser)
+router.post('/users', controller.createUser)
+router.patch('/users/:id', controller.modifyUser)
+router.delete('/users/:id', controller.deleteUser)
 
 
 module.exports = router
